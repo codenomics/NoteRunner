@@ -6,14 +6,16 @@
 
 ## Download
 
-**Latest version: v1.4** (Oct 3, 2026)
+**Latest version: v1.5** (Oct 3, 2026)
 
-- [NoteRunner_v1.4_no-install.zip](https://github.com/codenomics/NoteRunner/releases/download/v1.4/NoteRunner_v1.4_no-install.zip) - 135 KB
-- [NoteRunner_v1.4_Setup.exe](https://github.com/codenomics/NoteRunner/releases/download/v1.4/NoteRunner_v1.4_Setup.exe) - 208 KB
+- [NoteRunner_v1.5_no-install.zip](https://github.com/codenomics/NoteRunner/releases/download/v1.5/NoteRunner_v1.5_no-install.zip) - 138 KB
+- [NoteRunner_v1.5_Setup.exe](https://github.com/codenomics/NoteRunner/releases/download/v1.5/NoteRunner_v1.5_Setup.exe) - 211 KB
 
-What's new in v1.4:
+What's new in v1.5:
 
-No notes for this version.
+- NoteRunner now checks GitHub for a newer version when it starts and offers to update
+- Update now saves your notes, downloads the new installer and runs it (installed copies)
+- Settings has a new Update check switch (At startup / Off) and a Check for updates button
 
 Older versions are on the [Releases page](https://github.com/codenomics/NoteRunner/releases).
 
@@ -155,6 +157,7 @@ Click Settings (top right) for:
 - Page: line the notes up on the Left, Center or Right
 - Spell check on or off (needs Windows 8 or newer)
 - Notes folder (and Google Drive) and Import from Dynalist
+- Update check: At startup (default) or Off, and a button to check now
 
 
 MOVING OVER FROM DYNALIST
@@ -185,6 +188,12 @@ GOOD TO KNOW
 - A copy of your notes is kept each day in the Backups folder next to
   notes.txt (the newest 30 days).
 - Settings are kept in %APPDATA%\NoteRunner\settings.txt.
+- Updates: when NoteRunner starts it checks GitHub for a newer version (it only
+  reads the public release page; nothing is sent). If there is one it asks
+  whether to update. With the installer, Update now saves your notes, downloads
+  the new installer and runs it; with the no-install zip, it opens the download
+  page. Settings > Update check turns the startup check off, and the Settings
+  button checks on demand.
 - If something goes wrong, NoteRunner-log.txt next to NoteRunner.exe says what.
 - To remove NoteRunner: delete its folder, plus %APPDATA%\NoteRunner.
   Your notes stay in the notes folder until you delete that too.
