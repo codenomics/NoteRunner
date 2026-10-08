@@ -6,15 +6,15 @@
 
 ## Download
 
-**Latest version: v1.6** (Oct 8, 2026)
+**Latest version: v1.7** (Oct 8, 2026)
 
-- [NoteRunner_v1.6_no-install.zip](https://github.com/codenomics/NoteRunner/releases/download/v1.6/NoteRunner_v1.6_no-install.zip) - 138 KB
-- [NoteRunner_v1.6_Setup.exe](https://github.com/codenomics/NoteRunner/releases/download/v1.6/NoteRunner_v1.6_Setup.exe) - 211 KB
-- [NoteRunner_v1.6_source.zip](https://github.com/codenomics/NoteRunner/releases/download/v1.6/NoteRunner_v1.6_source.zip) - 130 KB
+- [NoteRunner_v1.7_no-install.zip](https://github.com/codenomics/NoteRunner/releases/download/v1.7/NoteRunner_v1.7_no-install.zip) - 138 KB
+- [NoteRunner_v1.7_Setup.exe](https://github.com/codenomics/NoteRunner/releases/download/v1.7/NoteRunner_v1.7_Setup.exe) - 211 KB
+- [NoteRunner_v1.7_source.zip](https://github.com/codenomics/NoteRunner/releases/download/v1.7/NoteRunner_v1.7_source.zip) - 130 KB
 
-What's new in v1.6:
+What's new in v1.7:
 
-- No app changes. Uploading Code**
+- updater versioning fix**
 
 Older versions are on the [Releases page](https://github.com/codenomics/NoteRunner/releases).
 
