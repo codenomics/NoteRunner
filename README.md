@@ -1,20 +1,25 @@
 # NoteRunner
 
+A notes and outlines app. Documents live in folders in the sidebar. Each document is a list of bullets: Tab tucks a line under the one above, and clicking a bullet folds away the lines under it.
+
 > This application is built by AI. I made this for myself and I'm uploading it to GitHub for backup and to share in case anyone can get any use out of it. It's pretty specific to my setup and my needs, but if you can get any use out of it, then enjoy.
 >
 > Use at your own risk. I offer no warranty or guarantees for this software.
 
 ## Download
 
-**Latest version: v1.7** (Oct 8, 2026)
+**Latest version: v1.8** (Oct 23, 2026)
 
-- [NoteRunner_v1.7_no-install.zip](https://github.com/codenomics/NoteRunner/releases/download/v1.7/NoteRunner_v1.7_no-install.zip) - 138 KB
-- [NoteRunner_v1.7_Setup.exe](https://github.com/codenomics/NoteRunner/releases/download/v1.7/NoteRunner_v1.7_Setup.exe) - 211 KB
-- [NoteRunner_v1.7_source.zip](https://github.com/codenomics/NoteRunner/releases/download/v1.7/NoteRunner_v1.7_source.zip) - 130 KB
+- [NoteRunner_v1.8_no-install.zip](https://github.com/codenomics/NoteRunner/releases/download/v1.8/NoteRunner_v1.8_no-install.zip) - 141 KB
+- [NoteRunner_v1.8_Setup.exe](https://github.com/codenomics/NoteRunner/releases/download/v1.8/NoteRunner_v1.8_Setup.exe) - 214 KB
+- [NoteRunner_v1.8_source.zip](https://github.com/codenomics/NoteRunner/releases/download/v1.8/NoteRunner_v1.8_source.zip) - 133 KB
 
-What's new in v1.7:
+What's new in v1.8:
 
-- updater versioning fix**
+- Fixed: with crossed-off lines hidden, Tab no longer tucks a line under a hidden crossed-off line
+- Shared folders: changes made to the files outside NoteRunner now come in right away and are never written over
+- If a shared document is changed in its file and in NoteRunner at the same time, NoteRunner asks which version to keep and saves the other in Backups
+- A shared document's file is only rewritten when you actually change that document
 
 Older versions are on the [Releases page](https://github.com/codenomics/NoteRunner/releases).
 
@@ -41,14 +46,6 @@ Want to see how it works, or build it yourself? Download the file ending in `_so
 ## More details
 
 ```
-NOTERUNNER
-==========
-
-A notes and outlines app. Documents live in folders in the sidebar. Each
-document is a list of bullets: Tab tucks a line under the one above, and
-clicking a bullet folds away the lines under it.
-
-
 GETTING STARTED
 ---------------
 Pick one. Both give you the same app.
@@ -130,6 +127,9 @@ Changes in NoteRunner are written there, and changes made to those files come
 back into NoteRunner by themselves - handy for working on notes with other
 tools. The READ ME in the Shared folder explains the layout. Right-click >
 Stop sharing as files moves the copies into Backups (your documents stay).
+If a file is changed while you also have new typing in that document here,
+NoteRunner asks which version to keep; the other one is saved in Backups
+(Shared files), so nothing is lost.
 
 
 SECURE FOLDERS
